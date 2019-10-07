@@ -10,7 +10,6 @@ class Modell:
         self.age = age
         self.department = department
 
-
-    def __str__(self):
-        return "Employee name is %s, id number is %s, age of the employee is %d, and the department is %s." % (
-            self.name, self.id, self.age, self.department)
+    def str(self):
+        print("Employee name is %s, id number is %s, age of the employee is %d, and the department " \
+              "is %s." % (self.name, self.id, self.age, self.department))
